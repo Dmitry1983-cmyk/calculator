@@ -54,7 +54,7 @@ Toast.makeText(this,"Ok",Toast.LENGTH_SHORT).show();
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_DOWN){
-                    ((TextView)findViewById(R.id.editTextNumber)).setText(" ");
+                    ((TextView)findViewById(R.id.editTextNumber)).setText("");
                 }
                 return false;
             }
